@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+             font-family: monotype corsiva;
+             color: purple;
+             background-color: rgb(241, 201, 254);
+         }
+         .main-nav
+        {
+            display: flex;
+            background: rgb(195, 121, 244);
+            color: rgb(0, 0, 0);
+            border-radius: 10px;
+            padding: 1em;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .main-nav > ul
+        {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex: 3;
+            font-size: 20px;
+        }
+        .main-nav li
+        {
+            margin-right: 1em;
+        }
+        .main-nav > form
+        {
+            display: flex;
+            justify-content: flex-end;
+            flex: 1;
+            
+        }
+       
+        .main-nav button
+        {
+            background: rgb(255, 255, 255);
+            border: 0;
+            border-radius: 1em;
+            color: rgb(139, 32, 182);
+            padding: 0 1em;
+            margin-left: 1em;
+        }
+     </style>
+</head>
+<nav class="main-nav">
+    <ul>
+        <li><a href="./Bts.html">Home</a></li>
+        <li><a href="./about bts .html">About</a></li>
+        <li><a href="./signup.html">Sign Up</a></li>
+        
+    </ul>
+    <form>
+        <input type="Search" placeholder="Search">
+        <button>Search</button>
+    </form>
+</nav>
+<body>
+    
+    <h1>Registration Page</h1>
+    <p>
+        <form action="" method="post">
+            <table border="1" cellpadding="5" cellspacing="5">
+                <tr>
+                    <td>
+                        <label for="username">User Name</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="user name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Password">Password</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                    <button type="submit">Sign In</button>
+                    <button type="submit">Sign Up</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </p>
+</body>
+</html>
